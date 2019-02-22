@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JMExtension"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "积木仓库"
   s.description  = '积木仓库分类代码实现'
   s.ios.deployment_target = "8.0"
@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wangjinshan/JMExtension.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "JMExtension/JMExtension/Code/*.{h,m}"
- 
+  s.source_files  = "SDK/*.{h,m}"
  
 end
