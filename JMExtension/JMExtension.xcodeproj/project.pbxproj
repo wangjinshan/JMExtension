@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3AC24C2463B44A00BAC011 /* NSLayoutConstraint+JMDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC22F2463B44900BAC011 /* NSLayoutConstraint+JMDesignable.m */; };
+		6B3AC24D2463B44A00BAC011 /* CALayer+JMXibBorderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC2332463B44900BAC011 /* CALayer+JMXibBorderColor.m */; };
+		6B3AC24E2463B44A00BAC011 /* UITextField+JMStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC2342463B44900BAC011 /* UITextField+JMStyle.m */; };
+		6B3AC24F2463B44A00BAC011 /* CALayer+JMKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC2352463B44900BAC011 /* CALayer+JMKeyPath.m */; };
+		6B3AC2502463B44A00BAC011 /* NSMutableArray+JMSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC2372463B44900BAC011 /* NSMutableArray+JMSafe.m */; };
+		6B3AC2512463B44A00BAC011 /* UIButton+JMPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC23A2463B44900BAC011 /* UIButton+JMPosition.m */; };
+		6B3AC2522463B44A00BAC011 /* NSObject+JMSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC23D2463B44900BAC011 /* NSObject+JMSwizzle.m */; };
+		6B3AC2532463B44A00BAC011 /* UIView+JMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC2402463B44900BAC011 /* UIView+JMFrame.m */; };
+		6B3AC2542463B44A00BAC011 /* UIView+JMAdaptScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC2412463B44900BAC011 /* UIView+JMAdaptScreen.m */; };
+		6B3AC2552463B44A00BAC011 /* NSMutableDictionary+JMSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC2432463B44900BAC011 /* NSMutableDictionary+JMSafe.m */; };
+		6B3AC2562463B44A00BAC011 /* UIImage+JMMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC2452463B44900BAC011 /* UIImage+JMMake.m */; };
+		6B3AC2572463B44A00BAC011 /* NSString+JMCheckUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC2472463B44900BAC011 /* NSString+JMCheckUp.m */; };
+		6B3AC2582463B44A00BAC011 /* NSArray+JMSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC2482463B44900BAC011 /* NSArray+JMSafe.m */; };
+		6B3AC2592463B44A00BAC011 /* NSBundle+JMSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AC2492463B44900BAC011 /* NSBundle+JMSource.m */; };
 		74998D38221E8FF800A59531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998D37221E8FF800A59531 /* AppDelegate.m */; };
 		74998D3B221E8FF800A59531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998D3A221E8FF800A59531 /* ViewController.m */; };
 		74998D3E221E8FF800A59531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74998D3C221E8FF800A59531 /* Main.storyboard */; };
@@ -15,20 +29,6 @@
 		74998D46221E8FF800A59531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998D45221E8FF800A59531 /* main.m */; };
 		74998D50221E8FF900A59531 /* JMExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998D4F221E8FF900A59531 /* JMExtensionTests.m */; };
 		74998D5B221E8FF900A59531 /* JMExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998D5A221E8FF900A59531 /* JMExtensionUITests.m */; };
-		74998DCF221FEB7300A59531 /* CALayer+JMXibBorderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DB2221FEB7300A59531 /* CALayer+JMXibBorderColor.m */; };
-		74998DD0221FEB7300A59531 /* UIImage+JMMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DB3221FEB7300A59531 /* UIImage+JMMake.m */; };
-		74998DD1221FEB7300A59531 /* UIView+JMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DB5221FEB7300A59531 /* UIView+JMFrame.m */; };
-		74998DD2221FEB7300A59531 /* NSObject+JMSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DB8221FEB7300A59531 /* NSObject+JMSwizzle.m */; };
-		74998DD3221FEB7300A59531 /* UIButton+JMPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DC2221FEB7300A59531 /* UIButton+JMPosition.m */; };
-		74998DD4221FEB7300A59531 /* NSArray+JMSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DC3221FEB7300A59531 /* NSArray+JMSafe.m */; };
-		74998DD5221FEB7300A59531 /* NSString+JMCheckUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DC4221FEB7300A59531 /* NSString+JMCheckUp.m */; };
-		74998DD6221FEB7300A59531 /* NSMutableArray+JMSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DC5221FEB7300A59531 /* NSMutableArray+JMSafe.m */; };
-		74998DD7221FEB7300A59531 /* NSMutableDictionary+JMSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DC7221FEB7300A59531 /* NSMutableDictionary+JMSafe.m */; };
-		74998DD8221FEB7300A59531 /* UIView+JMAdaptScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DC8221FEB7300A59531 /* UIView+JMAdaptScreen.m */; };
-		74998DD9221FEB7300A59531 /* CALayer+JMKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DCA221FEB7300A59531 /* CALayer+JMKeyPath.m */; };
-		74998DDA221FEB7300A59531 /* NSLayoutConstraint+JMDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DCC221FEB7300A59531 /* NSLayoutConstraint+JMDesignable.m */; };
-		74998DDB221FEB7300A59531 /* NSBundle+JMSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DCD221FEB7300A59531 /* NSBundle+JMSource.m */; };
-		74998DDC221FEB7300A59531 /* UITextField+JMStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74998DCE221FEB7300A59531 /* UITextField+JMStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +49,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B3AC22F2463B44900BAC011 /* NSLayoutConstraint+JMDesignable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+JMDesignable.m"; sourceTree = "<group>"; };
+		6B3AC2302463B44900BAC011 /* NSMutableArray+JMSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+JMSafe.h"; sourceTree = "<group>"; };
+		6B3AC2312463B44900BAC011 /* NSLayoutConstraint+JMDesignable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+JMDesignable.h"; sourceTree = "<group>"; };
+		6B3AC2322463B44900BAC011 /* NSBundle+JMSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+JMSource.h"; sourceTree = "<group>"; };
+		6B3AC2332463B44900BAC011 /* CALayer+JMXibBorderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+JMXibBorderColor.m"; sourceTree = "<group>"; };
+		6B3AC2342463B44900BAC011 /* UITextField+JMStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JMStyle.m"; sourceTree = "<group>"; };
+		6B3AC2352463B44900BAC011 /* CALayer+JMKeyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+JMKeyPath.m"; sourceTree = "<group>"; };
+		6B3AC2362463B44900BAC011 /* NSString+JMCheckUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JMCheckUp.h"; sourceTree = "<group>"; };
+		6B3AC2372463B44900BAC011 /* NSMutableArray+JMSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+JMSafe.m"; sourceTree = "<group>"; };
+		6B3AC2382463B44900BAC011 /* UIImage+JMMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JMMake.h"; sourceTree = "<group>"; };
+		6B3AC2392463B44900BAC011 /* UITextField+JMStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+JMStyle.h"; sourceTree = "<group>"; };
+		6B3AC23A2463B44900BAC011 /* UIButton+JMPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JMPosition.m"; sourceTree = "<group>"; };
+		6B3AC23B2463B44900BAC011 /* JMEMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMEMacro.h; sourceTree = "<group>"; };
+		6B3AC23C2463B44900BAC011 /* NSObject+JMSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JMSwizzle.h"; sourceTree = "<group>"; };
+		6B3AC23D2463B44900BAC011 /* NSObject+JMSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JMSwizzle.m"; sourceTree = "<group>"; };
+		6B3AC23E2463B44900BAC011 /* UIView+JMAdaptScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMAdaptScreen.h"; sourceTree = "<group>"; };
+		6B3AC23F2463B44900BAC011 /* UIView+JMFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMFrame.h"; sourceTree = "<group>"; };
+		6B3AC2402463B44900BAC011 /* UIView+JMFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMFrame.m"; sourceTree = "<group>"; };
+		6B3AC2412463B44900BAC011 /* UIView+JMAdaptScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMAdaptScreen.m"; sourceTree = "<group>"; };
+		6B3AC2422463B44900BAC011 /* CALayer+JMXibBorderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+JMXibBorderColor.h"; sourceTree = "<group>"; };
+		6B3AC2432463B44900BAC011 /* NSMutableDictionary+JMSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+JMSafe.m"; sourceTree = "<group>"; };
+		6B3AC2442463B44900BAC011 /* NSArray+JMSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JMSafe.h"; sourceTree = "<group>"; };
+		6B3AC2452463B44900BAC011 /* UIImage+JMMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JMMake.m"; sourceTree = "<group>"; };
+		6B3AC2462463B44900BAC011 /* NSMutableDictionary+JMSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+JMSafe.h"; sourceTree = "<group>"; };
+		6B3AC2472463B44900BAC011 /* NSString+JMCheckUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JMCheckUp.m"; sourceTree = "<group>"; };
+		6B3AC2482463B44900BAC011 /* NSArray+JMSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JMSafe.m"; sourceTree = "<group>"; };
+		6B3AC2492463B44900BAC011 /* NSBundle+JMSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+JMSource.m"; sourceTree = "<group>"; };
+		6B3AC24A2463B44A00BAC011 /* UIButton+JMPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JMPosition.h"; sourceTree = "<group>"; };
+		6B3AC24B2463B44A00BAC011 /* CALayer+JMKeyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+JMKeyPath.h"; sourceTree = "<group>"; };
 		74998D33221E8FF800A59531 /* JMExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74998D36221E8FF800A59531 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74998D37221E8FF800A59531 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,35 +94,6 @@
 		74998D56221E8FF900A59531 /* JMExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74998D5A221E8FF900A59531 /* JMExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMExtensionUITests.m; sourceTree = "<group>"; };
 		74998D5C221E8FF900A59531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74998DB2221FEB7300A59531 /* CALayer+JMXibBorderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+JMXibBorderColor.m"; sourceTree = "<group>"; };
-		74998DB3221FEB7300A59531 /* UIImage+JMMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JMMake.m"; sourceTree = "<group>"; };
-		74998DB4221FEB7300A59531 /* CALayer+JMKeyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+JMKeyPath.h"; sourceTree = "<group>"; };
-		74998DB5221FEB7300A59531 /* UIView+JMFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMFrame.m"; sourceTree = "<group>"; };
-		74998DB6221FEB7300A59531 /* NSMutableDictionary+JMSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+JMSafe.h"; sourceTree = "<group>"; };
-		74998DB7221FEB7300A59531 /* UIView+JMAdaptScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMAdaptScreen.h"; sourceTree = "<group>"; };
-		74998DB8221FEB7300A59531 /* NSObject+JMSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JMSwizzle.m"; sourceTree = "<group>"; };
-		74998DB9221FEB7300A59531 /* NSMutableArray+JMSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+JMSafe.h"; sourceTree = "<group>"; };
-		74998DBA221FEB7300A59531 /* NSString+JMCheckUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JMCheckUp.h"; sourceTree = "<group>"; };
-		74998DBB221FEB7300A59531 /* UIButton+JMPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JMPosition.h"; sourceTree = "<group>"; };
-		74998DBC221FEB7300A59531 /* NSArray+JMSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JMSafe.h"; sourceTree = "<group>"; };
-		74998DBD221FEB7300A59531 /* JMEMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMEMacro.h; sourceTree = "<group>"; };
-		74998DBE221FEB7300A59531 /* UITextField+JMStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+JMStyle.h"; sourceTree = "<group>"; };
-		74998DBF221FEB7300A59531 /* NSBundle+JMSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+JMSource.h"; sourceTree = "<group>"; };
-		74998DC0221FEB7300A59531 /* NSLayoutConstraint+JMDesignable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+JMDesignable.h"; sourceTree = "<group>"; };
-		74998DC1221FEB7300A59531 /* CALayer+JMXibBorderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+JMXibBorderColor.h"; sourceTree = "<group>"; };
-		74998DC2221FEB7300A59531 /* UIButton+JMPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JMPosition.m"; sourceTree = "<group>"; };
-		74998DC3221FEB7300A59531 /* NSArray+JMSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JMSafe.m"; sourceTree = "<group>"; };
-		74998DC4221FEB7300A59531 /* NSString+JMCheckUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JMCheckUp.m"; sourceTree = "<group>"; };
-		74998DC5221FEB7300A59531 /* NSMutableArray+JMSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+JMSafe.m"; sourceTree = "<group>"; };
-		74998DC6221FEB7300A59531 /* NSObject+JMSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JMSwizzle.h"; sourceTree = "<group>"; };
-		74998DC7221FEB7300A59531 /* NSMutableDictionary+JMSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+JMSafe.m"; sourceTree = "<group>"; };
-		74998DC8221FEB7300A59531 /* UIView+JMAdaptScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMAdaptScreen.m"; sourceTree = "<group>"; };
-		74998DC9221FEB7300A59531 /* UIView+JMFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMFrame.h"; sourceTree = "<group>"; };
-		74998DCA221FEB7300A59531 /* CALayer+JMKeyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+JMKeyPath.m"; sourceTree = "<group>"; };
-		74998DCB221FEB7300A59531 /* UIImage+JMMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JMMake.h"; sourceTree = "<group>"; };
-		74998DCC221FEB7300A59531 /* NSLayoutConstraint+JMDesignable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+JMDesignable.m"; sourceTree = "<group>"; };
-		74998DCD221FEB7300A59531 /* NSBundle+JMSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+JMSource.m"; sourceTree = "<group>"; };
-		74998DCE221FEB7300A59531 /* UITextField+JMStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JMStyle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,35 +179,35 @@
 		74998DB1221FEB7300A59531 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				74998DB2221FEB7300A59531 /* CALayer+JMXibBorderColor.m */,
-				74998DB3221FEB7300A59531 /* UIImage+JMMake.m */,
-				74998DB4221FEB7300A59531 /* CALayer+JMKeyPath.h */,
-				74998DB5221FEB7300A59531 /* UIView+JMFrame.m */,
-				74998DB6221FEB7300A59531 /* NSMutableDictionary+JMSafe.h */,
-				74998DB7221FEB7300A59531 /* UIView+JMAdaptScreen.h */,
-				74998DB8221FEB7300A59531 /* NSObject+JMSwizzle.m */,
-				74998DB9221FEB7300A59531 /* NSMutableArray+JMSafe.h */,
-				74998DBA221FEB7300A59531 /* NSString+JMCheckUp.h */,
-				74998DBB221FEB7300A59531 /* UIButton+JMPosition.h */,
-				74998DBC221FEB7300A59531 /* NSArray+JMSafe.h */,
-				74998DBD221FEB7300A59531 /* JMEMacro.h */,
-				74998DBE221FEB7300A59531 /* UITextField+JMStyle.h */,
-				74998DBF221FEB7300A59531 /* NSBundle+JMSource.h */,
-				74998DC0221FEB7300A59531 /* NSLayoutConstraint+JMDesignable.h */,
-				74998DC1221FEB7300A59531 /* CALayer+JMXibBorderColor.h */,
-				74998DC2221FEB7300A59531 /* UIButton+JMPosition.m */,
-				74998DC3221FEB7300A59531 /* NSArray+JMSafe.m */,
-				74998DC4221FEB7300A59531 /* NSString+JMCheckUp.m */,
-				74998DC5221FEB7300A59531 /* NSMutableArray+JMSafe.m */,
-				74998DC6221FEB7300A59531 /* NSObject+JMSwizzle.h */,
-				74998DC7221FEB7300A59531 /* NSMutableDictionary+JMSafe.m */,
-				74998DC8221FEB7300A59531 /* UIView+JMAdaptScreen.m */,
-				74998DC9221FEB7300A59531 /* UIView+JMFrame.h */,
-				74998DCA221FEB7300A59531 /* CALayer+JMKeyPath.m */,
-				74998DCB221FEB7300A59531 /* UIImage+JMMake.h */,
-				74998DCC221FEB7300A59531 /* NSLayoutConstraint+JMDesignable.m */,
-				74998DCD221FEB7300A59531 /* NSBundle+JMSource.m */,
-				74998DCE221FEB7300A59531 /* UITextField+JMStyle.m */,
+				6B3AC24B2463B44A00BAC011 /* CALayer+JMKeyPath.h */,
+				6B3AC2352463B44900BAC011 /* CALayer+JMKeyPath.m */,
+				6B3AC2422463B44900BAC011 /* CALayer+JMXibBorderColor.h */,
+				6B3AC2332463B44900BAC011 /* CALayer+JMXibBorderColor.m */,
+				6B3AC23B2463B44900BAC011 /* JMEMacro.h */,
+				6B3AC2322463B44900BAC011 /* NSBundle+JMSource.h */,
+				6B3AC2492463B44900BAC011 /* NSBundle+JMSource.m */,
+				6B3AC2312463B44900BAC011 /* NSLayoutConstraint+JMDesignable.h */,
+				6B3AC22F2463B44900BAC011 /* NSLayoutConstraint+JMDesignable.m */,
+				6B3AC2442463B44900BAC011 /* NSArray+JMSafe.h */,
+				6B3AC2482463B44900BAC011 /* NSArray+JMSafe.m */,
+				6B3AC2302463B44900BAC011 /* NSMutableArray+JMSafe.h */,
+				6B3AC2372463B44900BAC011 /* NSMutableArray+JMSafe.m */,
+				6B3AC2462463B44900BAC011 /* NSMutableDictionary+JMSafe.h */,
+				6B3AC2432463B44900BAC011 /* NSMutableDictionary+JMSafe.m */,
+				6B3AC23C2463B44900BAC011 /* NSObject+JMSwizzle.h */,
+				6B3AC23D2463B44900BAC011 /* NSObject+JMSwizzle.m */,
+				6B3AC2362463B44900BAC011 /* NSString+JMCheckUp.h */,
+				6B3AC2472463B44900BAC011 /* NSString+JMCheckUp.m */,
+				6B3AC24A2463B44A00BAC011 /* UIButton+JMPosition.h */,
+				6B3AC23A2463B44900BAC011 /* UIButton+JMPosition.m */,
+				6B3AC2382463B44900BAC011 /* UIImage+JMMake.h */,
+				6B3AC2452463B44900BAC011 /* UIImage+JMMake.m */,
+				6B3AC2392463B44900BAC011 /* UITextField+JMStyle.h */,
+				6B3AC2342463B44900BAC011 /* UITextField+JMStyle.m */,
+				6B3AC23E2463B44900BAC011 /* UIView+JMAdaptScreen.h */,
+				6B3AC2412463B44900BAC011 /* UIView+JMAdaptScreen.m */,
+				6B3AC23F2463B44900BAC011 /* UIView+JMFrame.h */,
+				6B3AC2402463B44900BAC011 /* UIView+JMFrame.m */,
 			);
 			name = SDK;
 			path = ../../SDK;
@@ -343,23 +343,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74998DCF221FEB7300A59531 /* CALayer+JMXibBorderColor.m in Sources */,
-				74998DD9221FEB7300A59531 /* CALayer+JMKeyPath.m in Sources */,
-				74998DD8221FEB7300A59531 /* UIView+JMAdaptScreen.m in Sources */,
-				74998DD3221FEB7300A59531 /* UIButton+JMPosition.m in Sources */,
-				74998DD4221FEB7300A59531 /* NSArray+JMSafe.m in Sources */,
+				6B3AC24C2463B44A00BAC011 /* NSLayoutConstraint+JMDesignable.m in Sources */,
+				6B3AC24F2463B44A00BAC011 /* CALayer+JMKeyPath.m in Sources */,
+				6B3AC2592463B44A00BAC011 /* NSBundle+JMSource.m in Sources */,
+				6B3AC2552463B44A00BAC011 /* NSMutableDictionary+JMSafe.m in Sources */,
+				6B3AC2572463B44A00BAC011 /* NSString+JMCheckUp.m in Sources */,
 				74998D3B221E8FF800A59531 /* ViewController.m in Sources */,
-				74998DD0221FEB7300A59531 /* UIImage+JMMake.m in Sources */,
-				74998DD1221FEB7300A59531 /* UIView+JMFrame.m in Sources */,
+				6B3AC24D2463B44A00BAC011 /* CALayer+JMXibBorderColor.m in Sources */,
 				74998D46221E8FF800A59531 /* main.m in Sources */,
-				74998DD6221FEB7300A59531 /* NSMutableArray+JMSafe.m in Sources */,
-				74998DDA221FEB7300A59531 /* NSLayoutConstraint+JMDesignable.m in Sources */,
-				74998DD2221FEB7300A59531 /* NSObject+JMSwizzle.m in Sources */,
-				74998DDB221FEB7300A59531 /* NSBundle+JMSource.m in Sources */,
-				74998DD7221FEB7300A59531 /* NSMutableDictionary+JMSafe.m in Sources */,
-				74998DD5221FEB7300A59531 /* NSString+JMCheckUp.m in Sources */,
+				6B3AC2562463B44A00BAC011 /* UIImage+JMMake.m in Sources */,
+				6B3AC2512463B44A00BAC011 /* UIButton+JMPosition.m in Sources */,
+				6B3AC2502463B44A00BAC011 /* NSMutableArray+JMSafe.m in Sources */,
+				6B3AC2522463B44A00BAC011 /* NSObject+JMSwizzle.m in Sources */,
+				6B3AC24E2463B44A00BAC011 /* UITextField+JMStyle.m in Sources */,
+				6B3AC2582463B44A00BAC011 /* NSArray+JMSafe.m in Sources */,
+				6B3AC2532463B44A00BAC011 /* UIView+JMFrame.m in Sources */,
+				6B3AC2542463B44A00BAC011 /* UIView+JMAdaptScreen.m in Sources */,
 				74998D38221E8FF800A59531 /* AppDelegate.m in Sources */,
-				74998DDC221FEB7300A59531 /* UITextField+JMStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

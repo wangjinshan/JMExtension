@@ -17,8 +17,10 @@
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-
         [self jm_swizzleSelector:@selector(removeObject:) withSwizzledSelector:@selector(jm_removeObject:)];
+
+        Class cls1 = NSClassFromString(@"__NSPlaceholderArray");
+        [cls1 jm_swizzleSelector:@selector(initWithObjects:count:) withSwizzledSelector:@selector(jm_initWithObjects:count:)];
 
         Class cls = NSClassFromString(@"__NSArrayM");
         //2、提示数组不能添加为nil的数据
@@ -45,27 +47,21 @@
 - (instancetype)jm_initWithObjects:(const id _Nonnull __unsafe_unretained *)objects count:(NSUInteger)cnt {
     BOOL hasNilObject = NO;
     for (NSUInteger i = 0; i < cnt; i++) {
-        if ([objects[i] isKindOfClass:[NSArray class]]) {
-            NSLog(@"%@", objects[i]);
-        }
         if (objects[i] == nil) {
             hasNilObject = YES;
-            //            NSLog(@"%s object at index %lu is nil, it will be filtered", __FUNCTION__, i);
+            NSLog(@"%s object at index %lu is nil, it will be filtered", __FUNCTION__, i);
         }
     }
 
     // 因为有值为nil的元素，那么我们可以过滤掉值为nil的元素
     if (hasNilObject) {
         id __unsafe_unretained newObjects[cnt];
-
         NSUInteger index = 0;
         for (NSUInteger i = 0; i < cnt; ++i) {
             if (objects[i] != nil) {
                 newObjects[index++] = objects[i];
             }
         }
-
-        //        NSLog(@"%@", [NSThread callStackSymbols]);
         return [self jm_initWithObjects:newObjects count:index];
     }
 
